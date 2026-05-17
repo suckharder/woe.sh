@@ -333,6 +333,12 @@ async function loadArticle(article) {
 
   state.usedSlugs = new Map();
   el('article-body').innerHTML = marked.parse(markdown);
+  el('article-body').querySelectorAll('table').forEach(table => {
+    const wrap = document.createElement('div');
+    wrap.className = 'table-wrap';
+    table.parentNode.insertBefore(wrap, table);
+    wrap.appendChild(table);
+  });
   addCopyButtons();
 
   // Rebase relative image/media paths to the article's own folder.
