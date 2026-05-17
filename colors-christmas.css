@@ -1,0 +1,25 @@
+:root {
+  /* Backgrounds */
+  --bg-base:           #090e09;
+  --bg-surface:        #0e140e;
+  --bg-elevated:       #151f15;
+
+  /* Accent — christmas red */
+  --accent:            #c62828;
+  --accent-bright:     #e53935;
+  --accent-dim:        rgba(198, 40, 40, 0.12);
+
+  /* Text */
+  --text-primary:      #e8f5e8;
+  --text-secondary:    #7a957a;
+  --text-muted:        #3a4e3a;
+
+  /* Borders */
+  --border:            #1a2e1a;
+  --border-subtle:     #111f11;
+
+  /* Layout — unchanged */
+  --sidebar-width:     260px;
+  --toc-width:         220px;
+  --header-height:     70px;
+}

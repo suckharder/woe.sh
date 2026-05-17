@@ -1,0 +1,23 @@
+{
+  "holidays": [
+    {
+      "name": "halloween",
+      "ranges": [
+        { "month": 10, "from": 24, "to": 31 }
+      ],
+      "colors":  "colors-halloween.css",
+      "header":  "header-halloween.partial",
+      "footer":  "footer-halloween.partial"
+    },
+    {
+      "name": "christmas",
+      "ranges": [
+        { "month": 12, "from": 20, "to": 31 },
+        { "month":  1, "from":  1, "to":  2 }
+      ],
+      "colors":  "colors-christmas.css",
+      "header":  "header-christmas.partial",
+      "footer":  "footer-christmas.partial"
+    }
+  ]
+}

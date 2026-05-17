@@ -1,0 +1,25 @@
+:root {
+  /* Backgrounds */
+  --bg-base:           #0c0c0c;
+  --bg-surface:        #111111;
+  --bg-elevated:       #1a1a1a;
+
+  /* Accent — crimson red */
+  --accent:            #e53935;
+  --accent-bright:     #ef5350;
+  --accent-dim:        rgba(229, 57, 53, 0.10);
+
+  /* Text */
+  --text-primary:      #f0f0f0;
+  --text-secondary:    #888888;
+  --text-muted:        #444444;
+
+  /* Borders */
+  --border:            #222222;
+  --border-subtle:     #181818;
+
+  /* Layout */
+  --sidebar-width:     260px;
+  --toc-width:         220px;
+  --header-height:     70px;
+}

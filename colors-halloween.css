@@ -1,0 +1,25 @@
+:root {
+  /* Backgrounds */
+  --bg-base:           #0a0800;
+  --bg-surface:        #110e00;
+  --bg-elevated:       #1a1500;
+
+  /* Accent — pumpkin orange */
+  --accent:            #f57c00;
+  --accent-bright:     #ff9800;
+  --accent-dim:        rgba(245, 124, 0, 0.12);
+
+  /* Text */
+  --text-primary:      #f5e6c8;
+  --text-secondary:    #8a7a5a;
+  --text-muted:        #4a3e28;
+
+  /* Borders */
+  --border:            #2a2000;
+  --border-subtle:     #1a1500;
+
+  /* Layout — unchanged */
+  --sidebar-width:     260px;
+  --toc-width:         220px;
+  --header-height:     70px;
+}

@@ -1,0 +1,33 @@
+<footer class="bg-surface border-t border-edge text-ink-ghost" style="flex-shrink: 0;">
+  <div style="max-width: 72rem; margin: 0 auto; padding: 2.5rem 2rem; display: flex; flex-wrap: wrap; gap: 2.5rem; justify-content: space-between; align-items: flex-start;">
+
+    <!-- Branding -->
+    <div style="min-width: 160px;">
+      <div class="text-ink font-bold" style="font-size: 1.125rem; letter-spacing: -0.02em; margin-bottom: 0.5rem;">
+        woe<span class="text-accent">.sh</span>
+      </div>
+      <p style="font-size: 0.8125rem; line-height: 1.6; max-width: 18rem;">
+        Awesome lists, guides, documentation, resources, opinions and more — spooky edition. 👻
+      </p>
+    </div>
+
+    <!-- Interesting links -->
+    <div>
+      <p style="font-size: 0.6875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 1rem; color: var(--text-muted);">
+        Interesting links
+      </p>
+      <ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(2, minmax(140px, 1fr)); gap: 0.25rem 2.5rem;">
+        <li><a href="https://selfh.st/" class="text-ink-ghost hover:text-accent transition-colors duration-100" style="font-size: 0.8125rem; text-decoration: none;">selfh.st</a></li>
+        <li><a href="https://github.com/topics/awesome" class="text-ink-ghost hover:text-accent transition-colors duration-100" style="font-size: 0.8125rem; text-decoration: none;">Awesome Lists</a></li>
+        <li><a href="https://fmhy.vercel.app/" class="text-ink-ghost hover:text-accent transition-colors duration-100" style="font-size: 0.8125rem; text-decoration: none;">FMHY</a></li>
+        <li><a href="https://old.reddit.com/r/Piracy/wiki/megathread" class="text-ink-ghost hover:text-accent transition-colors duration-100" style="font-size: 0.8125rem; text-decoration: none;">r/Piracy Megathread</a></li>
+        <li><a href="https://www.reddit.com/r/selfhosted/" class="text-ink-ghost hover:text-accent transition-colors duration-100" style="font-size: 0.8125rem; text-decoration: none;">r/selfhosted</a></li>
+        <li><a href="https://www.reddit.com/r/homelab/" class="text-ink-ghost hover:text-accent transition-colors duration-100" style="font-size: 0.8125rem; text-decoration: none;">r/homelab</a></li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="border-t border-edge" style="padding: 1rem 2rem; text-align: center; font-size: 0.75rem;">
+    woe.sh - vibe-coded page, human-written content. 🕷️
+  </div>
+</footer>

@@ -1,0 +1,84 @@
+{
+  "articles": [
+    {
+      "id": "operating-systems",
+      "title": "Operating Systems",
+      "category": "operating-systems",
+      "categoryLabel": "Operating Systems",
+      "file": "articles/operating-systems/operating-systems/operating-systems.md",
+      "description": "A collection of resources and opinions on desktop, laptop, and server operating systems - barely scratching the surface of a deep rabbit-hole.",
+      "date": "2026-05-09",
+      "tags": ["linux", "windows", "macos", "ubuntu"]
+    },
+    {
+      "id": "removing-snap-from-ubuntu",
+      "title": "Removing Snap from Ubuntu",
+      "category": "operating-systems",
+      "categoryLabel": "Operating Systems",
+      "file": "articles/operating-systems/removing-snap-from-ubuntu/remove-snap-from-ubuntu.md",
+      "description": "How to fully remove Snap from Ubuntu and prevent it from coming back, with an optional convenience script.",
+      "date": "2026-05-08",
+      "tags": ["linux", "ubuntu", "snap", "firefox"]
+    },
+    {
+      "id": "shrinking-luks",
+      "title": "Shrinking a LUKS Partition & Dual-Booting Windows",
+      "category": "operating-systems",
+      "categoryLabel": "Operating Systems",
+      "file": "articles/operating-systems/shrinking-luks/shrinking-luks.md",
+      "description": "How to shrink an existing LUKS encrypted partition and reclaim the free space to install Windows alongside Linux.",
+      "date": "2025-05-01",
+      "tags": ["linux", "luks", "encryption", "windows", "dual-boot"]
+    },
+    {
+      "id": "browsers",
+      "title": "Browsers",
+      "category": "browsers",
+      "categoryLabel": "Browsers",
+      "file": "articles/browsers/browsers/browsers.md",
+      "description": "A curated list of browsers I recommend or find interesting, with a focus on privacy, security, and daily usability.",
+      "date": "2026-05-11",
+      "tags": ["browsers", "privacy", "firefox", "brave", "security"]
+    },
+    {
+      "id": "dns",
+      "title": "DNS",
+      "category": "browsers",
+      "categoryLabel": "Browsers",
+      "file": "articles/browsers/dns/dns.md",
+      "description": "A guide to free public DNS resolvers with DoT and DoH support for better privacy and optional content blocking.",
+      "date": "2026-05-17",
+      "tags": ["dns", "privacy", "security", "doh", "dot"]
+    },
+    {
+      "id": "piracy-links",
+      "title": "Piracy Links",
+      "category": "piracy",
+      "categoryLabel": "Piracy",
+      "file": "articles/piracy/piracy-links/piracy-links.md",
+      "description": "A curated list of personal favorites for torrenting and direct downloads — movies, music, games, books, and software.",
+      "date": "2026-05-13",
+      "tags": ["piracy", "torrents", "movies", "music", "games", "books", "software"]
+    },
+    {
+      "id": "vpns",
+      "title": "VPNs",
+      "category": "piracy",
+      "categoryLabel": "Piracy",
+      "file": "articles/piracy/vpns/vpns.md",
+      "description": "An honest look at what VPNs can and can't do for your privacy, with recommendations for trustworthy providers.",
+      "date": "2026-05-13",
+      "tags": ["vpn", "privacy", "security", "piracy"]
+    },
+    {
+      "id": "placeholder",
+      "title": "Placeholder",
+      "category": "selfhosting",
+      "categoryLabel": "Self-Hosting",
+      "file": "articles/selfhosting/placeholder/placeholder.md",
+      "description": "",
+      "date": "2025-05-01",
+      "tags": []
+    }
+  ]
+}

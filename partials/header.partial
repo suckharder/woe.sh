@@ -1,0 +1,20 @@
+<header class="sticky top-0 z-50 flex items-center px-6 bg-[rgba(17,17,17,0.6)] backdrop-blur-md backdrop-saturate-150 border-b border-edge"
+  style="height: var(--header-height); flex-shrink: 0;">
+  <a href="#/" class="font-bold tracking-tight no-underline text-ink" style="font-size: 1.625rem; letter-spacing: -0.02em;">
+    woe<span class="text-accent">.sh</span>
+  </a>
+
+  <div class="ml-auto flex items-center gap-4">
+    <a href="https://github.com/suckharder/woe.sh" class="text-ink-ghost hover:text-ink transition-colors duration-100" aria-label="GitHub">
+      <ion-icon name="logo-github" style="font-size: 1.5rem; display: block;"></ion-icon>
+    </a>
+    <a href="https://app.wavepay.io/pay/Re6eC66JVF" class="hidden md:inline bg-accent hover:bg-accent-bright text-white border border-accent hover:border-accent-bright transition-colors duration-100 rounded-xl font-sans"
+      style="font-size: 0.8125rem; font-weight: 500; padding: 0.4rem 1rem; letter-spacing: 0.02em;">
+      Leave a Tip
+    </a>
+    <button id="mobile-menu-btn" class="md:hidden text-ink-ghost hover:text-ink transition-colors duration-100 bg-transparent border-none cursor-pointer p-1"
+      aria-label="Menu" onclick="toggleSidebar(!document.getElementById('left-sidebar').classList.contains('open'))">
+      <ion-icon name="menu-outline" style="font-size: 1.5rem; display: block;"></ion-icon>
+    </button>
+  </div>
+</header>
