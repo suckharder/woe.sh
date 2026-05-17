@@ -125,10 +125,14 @@
     }
     .prose blockquote p { margin-bottom: 0; }
 
+    .prose .table-wrap {
+      overflow-x: auto; overflow-y: hidden; margin: 1.5rem 0;
+      border: 1px solid var(--border); border-radius: 0.75rem;
+      -webkit-overflow-scrolling: touch;
+    }
     .prose table {
       width: 100%; border-collapse: separate; border-spacing: 0;
-      margin: 1.5rem 0; font-size: 0.875rem;
-      border: 1px solid var(--border); border-radius: 0.75rem; overflow: hidden;
+      font-size: 0.875rem; min-width: 400px;
     }
     .prose th {
       background: var(--bg-elevated); padding: 0.5rem 0.875rem;
